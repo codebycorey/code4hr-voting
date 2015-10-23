@@ -116,7 +116,6 @@ module.exports={
            "issues": [],
            "incumbent": true,
            "office": "Senate of Virginia 8th District"
-
 	   },
 		{
            "img": "http://ballotpedia.org/File:Bill_Fleming.jpg",
@@ -126,7 +125,6 @@ module.exports={
            "issues": [],
            "incumbent": true,
            "office": "House of Delegates 82nd District"
-
 	   },
 		{
            "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
@@ -136,7 +134,6 @@ module.exports={
            "issues": [],
            "incumbent": true,
            "office": "House of Delegates 82nd District"
-
 	   },
 		{
            "img": "http://ballotpedia.org/File:Glenn_Davis.jpg",

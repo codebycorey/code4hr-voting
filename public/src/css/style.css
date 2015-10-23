@@ -1,5 +1,5 @@
 .hero {
-background: url('/src/img/spash.jpg') no-repeat center center; //temporary
+background: url('/src/img/bg1.png') no-repeat center center; //temporary
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -46,4 +46,9 @@ width: 100%;
     text-align: center;
     height: 50px;
     width: 300px;
+}
+
+.candidate-background {
+    background-color: grey;
+    padding: 20px;
 }

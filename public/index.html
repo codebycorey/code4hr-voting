@@ -22,25 +22,25 @@
         </section>
     </section>
 
-    <div>
-      <ul>
-        <li ng-repeat='candidate in candidates'>
-          <img src="{{candidate.img}}">
-          {{candidate.name}}
-          <ol>
-            <li ng-repeat='issue in candidate.issues'>
-              {{issue.description}}
-              <button ng-click="changeVote('up', issue)">{{issue.up}}</button>
-              <button ng-click="changeVote('down', issue)">{{issue.down}}</button>
-            </li>
-            <li>
-              <form ng-submit="addNewIssue($event, candidate.index)">
-                <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description"/>
-              </form>
-            </li>
-          </ol>
-        </li>
-      </ul>
+    <div class="container">
+        <div class="candidate-background">
+            <div class="row" ng-repeat='candidate in candidates'>
+                <img class="col-md-4" src="{{candidate.img}}" alt="">
+                <h3>{{candidate.name}}</h3>
+                <ul class="list-unstyled col-md-8">
+                    <li class="row" ng-repeat="issue in candidate.issues">
+                        <button class="col-md-1" ng-click="changeVote('up', issue)">{{issue.up}}</button>
+                        <button class="col-md-1" ng-click="changeVote('down', issue)">{{issue.down}}</button>
+                        <p class="col-md-8">{{issue.description}}</p>
+                    </li>
+                    <li class="row">
+                      <form class="col-md-4 col-md-offset-2" ng-submit="addNewIssue($event)">
+                        <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description"/>
+                      </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <script src="lib/jquery/dist/jquery.min.js"></script>
