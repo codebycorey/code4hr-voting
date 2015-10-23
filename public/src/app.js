@@ -16,6 +16,9 @@ app.factory('DataService', function($q, $http) {
 });
 
 app.controller('MainController', function($scope, DataService) {
+    $scope.address = '';
+
+
   $scope.voted = 'none';
 
   DataService.getData().then(function(data){
