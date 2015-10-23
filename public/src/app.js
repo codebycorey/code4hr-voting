@@ -16,15 +16,12 @@ app.factory('DataService', function($q, $http) {
 });
 
 app.controller('MainController', function($scope, DataService) {
-<<<<<<< HEAD
+
     $scope.address = '';
 
-
-  $scope.voted = 'none';
-=======
   //$scope.voted = 'none';
   $scope.voted = {};
->>>>>>> c5ff8e3d88412dbcd23f4053c6dd946850134e1e
+
 
   DataService.getData().then(function(data){
     $scope.candidates = data.candidates;
@@ -41,7 +38,7 @@ app.controller('MainController', function($scope, DataService) {
       voted = $scope.voted[names];
     } else {
       if (flag == 'up') {
-        $scope.voted[names] = 'up'; 
+        $scope.voted[names] = 'up';
       } else {
         $scope.voted[names] = 'down';
       }
