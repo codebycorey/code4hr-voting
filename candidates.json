@@ -109,7 +109,7 @@ module.exports={
             office: "Senate of Virginia 7th District"
         }
 		{
-           "img": "http://ballotpedia.org/File:William_DeSteph.jpg",
+           "img": "http://ballotpedia.org/wiki/images/c/ca/William_DeSteph.jpg",
            "name": "William DeSteph",
            "party": "R",
            "site": "http://ballotpedia.org/Bill_R._DeSteph,_Jr",
@@ -119,7 +119,7 @@ module.exports={
 
 		}
 		{
-           "img": "http://ballotpedia.org/File:Bill_Fleming.jpg",
+           "img": "http://ballotpedia.org/wiki/images/thumb/3/3a/Bill_Fleming.jpg/400px-Bill_Fleming.jpg",
            "name": "Bill Fleming",
            "party": "D",
            "site": "http://ballotpedia.org/Bill_Fleming",
@@ -139,7 +139,7 @@ module.exports={
 
 		}
 		{
-           "img": "http://ballotpedia.org/File:Glenn_Davis.jpg",
+           "img": "http://ballotpedia.org/wiki/images/thumb/6/67/Glenn_Davis.jpg/480px-Glenn_Davis.jpg",
            "name": “Glenn Davis Jr.”,
            "party": "D",
            "site": "http://ballotpedia.org/Glenn_Davis_(Virginia)",
