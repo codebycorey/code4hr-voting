@@ -18,17 +18,20 @@ app.factory('DataService', function($q, $http) {
 app.controller('MainController', function($scope, DataService) {
   DataService.getData().then(function(data){
     $scope.candidates = data.candidates;
-    console.log(data.candidates);
+    $scope.candidates.forEach(function(element, index){
+      element.index = index;
+    });
   });
 
-  $scope.newIssue = {
-    description: "",
-    up: 0,
-    down: 0
-  };
+  $scope.newIssue = {};
 
-  $scope.addNewIssue = function($event){
-    console.log($scope.newIssue);
-    return false;
+  $scope.addNewIssue = function($event, index) {
+    $scope.newIssue.up = 0;
+    $scope.newIssue.down = 0;
+    console.log($scope.candidates);
+    console.log(index);
+    $scope.candidates[index].issues.push($scope.newIssue);
+    $scope.newIssue = {};
+    $event.preventDefault();
   }
 });
