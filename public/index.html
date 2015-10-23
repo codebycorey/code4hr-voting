@@ -9,14 +9,18 @@
 </head>
 <body ng-controller="MainController">
 
-  <section class="hero">
-      <section class="container">
-          <div class="text-background">
-              <h1 class="herotitle">Hampont Roads Local Candidate</h1>
-              <form action="">
-                  <input type="text">
-              </form>
-          </div>
+    <section class="hero">
+        <section class="container">
+            <div class="text-background">
+                <h1 class="herotitle">Hampont Roads Local Candidate</h1>
+                <p class="heroinstruction"> Please enter your address </p>
+                    <form action="">
+                        <input class="address" type="text" placeholder="Address">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
 
     <div>
       <ul>
@@ -38,9 +42,6 @@
         </li>
       </ul>
     </div>
-
-      </section>
-  </section>
 
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
