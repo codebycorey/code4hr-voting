@@ -1,3 +1,7 @@
-angular.module('LocalVotingApp')
-    .controller('HomeController', function ($scope, $rootScope, $location) {
+var app = angular.module('LocalVotingApp', [])
+    app.controller('HomeController', function ($scope) {
+        $scope.address = "test";
+    });
+    app.controller('AddressController', function ($scope) {
+        $scope.address = "";
     });
