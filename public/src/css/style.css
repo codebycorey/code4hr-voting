@@ -51,4 +51,12 @@ width: 100%;
 .candidate-background {
     background-color: grey;
     padding: 20px;
+
+}
+
+.profile-pic {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    padding: 25px;
 }
