@@ -5,12 +5,27 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body ng-controller="MainController">
+
+    <section class="hero">
+        <section class="container">
+            <div class="text-background">
+                <h1 class="herotitle">Hampont Roads Local Candidate</h1>
+                <p class="heroinstruction"> Please enter your address</p>
+                    <form action="">
+                        <input class="address" type="text" placeholder="Address" ng-model="address">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
 
     <div>
       <ul>
         <li ng-repeat='candidate in candidates'>
+          <img src="{{candidate.img}}">
           {{candidate.name}}
           <ol>
             <li ng-repeat='issue in candidate.issues'>
@@ -18,12 +33,15 @@
               <button ng-click="changeVote('up', issue)">{{issue.up}}</button>
               <button ng-click="changeVote('down', issue)">{{issue.down}}</button>
             </li>
+            <li>
+              <form ng-submit="addNewIssue($event)">
+                <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description"/>
+              </form>
+            </li>
           </ol>
         </li>
       </ul>
     </div>
-
-</div>
 
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>

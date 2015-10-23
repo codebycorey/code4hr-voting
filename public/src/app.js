@@ -52,4 +52,14 @@ app.controller('MainController', function($scope, DataService) {
 
   }
 
+  $scope.newIssue = {
+    description: "",
+    up: 0,
+    down: 0
+  };
+
+  $scope.addNewIssue = function($event){
+    console.log($scope.newIssue);
+    return false;
+  }
 });

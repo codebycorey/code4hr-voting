@@ -1,6 +1,7 @@
 {
   "candidates": [
     {
+       "img": "http://ballotpedia.org/wiki/images/c/ca/William_DeSteph.jpg",
         "name": "Tester",
         "issues": [
           {
@@ -9,6 +10,24 @@
             "down": 0
           }
         ]
+    },
+    {
+       "img": "http://ballotpedia.org/wiki/images/c/ca/William_DeSteph.jpg",
+       "name": "William DeSteph",
+       "party": "R",
+       "site": "http://ballotpedia.org/Bill_R._DeSteph,_Jr",
+       "issues": [],
+       "incumbent": true,
+       "office": "Senate of Virginia 8th District"
+    },
+    {
+       "img": "http://ballotpedia.org/wiki/images/c/ca/William_DeSteph.jpg",
+       "name": "William DeSteph",
+       "party": "R",
+       "site": "http://ballotpedia.org/Bill_R._DeSteph,_Jr",
+       "issues": [],
+       "incumbent": true,
+       "office": "Senate of Virginia 8th District"
     }
   ]
 }
