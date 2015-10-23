@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body ng-controller="MainController">
+
     <div>
       <ul>
         <li ng-repeat='candidate in candidates'>
           {{candidate.name}}
+          <ol>
+            <li ng-repeat='issue in candidate.issues'>
+              {{issue.description}}
+              <button>{{issue.up}}</button>
+              <button>{{issue.down}}</button>
+            </li>
+          </ol>
         </li>
       </ul>
     </div>
+
 </div>
 
     <script src="lib/jquery/dist/jquery.min.js"></script>

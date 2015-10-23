@@ -4,7 +4,7 @@ app.factory('DataService', function($q, $http) {
   return {
       getData: function() {
           var defer = $q.defer();
-          $http.get('./src/candidates.json', { cache: 'true'})
+          $http.get('./src/mockData/candidates.json', { cache: 'true'})
           .success(function(data) {
               defer.resolve(data);
           });
@@ -18,5 +18,6 @@ app.factory('DataService', function($q, $http) {
 app.controller('MainController', function($scope, DataService) {
   DataService.getData().then(function(data){
     $scope.candidates = data.candidates;
+    console.log(data.candidates);
   });
 });

@@ -1,0 +1,14 @@
+{
+  "candidates": [
+    {
+        "name": "Tester",
+        "issues": [
+          {
+            "description": "Want's to test the App",
+            "up": 1,
+            "down": 0
+          }
+        ]
+    }
+  ]
+}
