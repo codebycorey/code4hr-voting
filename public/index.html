@@ -30,8 +30,8 @@
           <ol>
             <li ng-repeat='issue in candidate.issues'>
               {{issue.description}}
-              <button>{{issue.up}}</button>
-              <button>{{issue.down}}</button>
+              <button ng-click="changeVote('up', issue)">{{issue.up}}</button>
+              <button ng-click="changeVote('down', issue)">{{issue.down}}</button>
             </li>
             <li>
               <form ng-submit="addNewIssue($event)">
