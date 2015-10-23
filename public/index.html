@@ -35,6 +35,17 @@
             </div>
         </div>
     </section>
+    <!--     <section class="hero">
+        <section class="container">
+            <div ng-class="(address === '') ? 'm20' : 'm5'" class="text-background">
+                <h1 class="herotitle">Hampont Roads Local Candidate</h1>
+                <p class="heroinstruction"> Please enter your address</p>
+                    <form action="">
+                        <input class="address" type="text" placeholder="Address" ng-model="address">
+                    </form>
+                </div>
+            </div>
+        </div> -->
     <!-- Candidates -->
     <div class="container">
         <div class="row">
@@ -45,8 +56,8 @@
                         <h3>{{candidate.name}}</h3>
                         <li ng-repeat='issue in candidate.issues'>
                             <p>{{issue.description}}</p>
-                            <a class="btn btn-success">{{issue.up}}</a>
-                            <a class="btn btn-danger">{{issue.down}}</a>
+                            <a class="btn btn-success" ng-click="changeVote('up', issue)">{{issue.up}}</a>
+                            <a class="btn btn-danger" ng-click="changeVote('down', issue)">{{issue.down}}</a>
                         </li>
                         <form ng-submit="addNewIssue($event)">
                             <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description" />
@@ -55,13 +66,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <footer id="aboutFooter">
-            <div class="container centerText">
-                <a href="http://github.com/JoviaNierenberg/robopocalypse" target="_blank"><i class="fa fa-github-alt fa-3x"></i><h3 class="marginTop">GitHub Repo</h3></a>
-            </div>
-        </footer>
     </div>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
