@@ -7,8 +7,19 @@ background-size: cover;
 height: 100vh;
 width: 100%;
 }
-.text-background {
+
+.m20 {
+    transition: margin 800ms;
     margin-top: 20%;
+}
+
+.m5 {
+    transition: margin 800ms;
+    margin-top: 5%;
+}
+
+.text-background {
+    /*margin-top: 20%;*/
     text-align: center;
     margin-left: auto;
     margin-right: auto;

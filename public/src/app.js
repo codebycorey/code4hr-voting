@@ -16,8 +16,8 @@ app.factory('DataService', function($q, $http) {
 });
 
 app.controller('MainController', function($scope, DataService) {
-  //$scope.voted = 'none';
   $scope.voted = {};
+  $scope.address = '';
 
   DataService.getData().then(function(data){
     $scope.candidates = data.candidates;
@@ -34,7 +34,7 @@ app.controller('MainController', function($scope, DataService) {
       voted = $scope.voted[names];
     } else {
       if (flag == 'up') {
-        $scope.voted[names] = 'up'; 
+        $scope.voted[names] = 'up';
       } else {
         $scope.voted[names] = 'down';
       }
