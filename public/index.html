@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="LocalVotingApp">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-
+    <title>Hack the Vote</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/font-awesome.css">
+    <link rel="stylesheet" href="src/css/grayscale.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <meta name="description" content="Change the world, know your candidate.">
+    <meta name="author" content="Hack2Win">
+    <link rel="icon" href="src/img/favicons/favicon.ico">
 </head>
-<body ng-controller="MainController">
 
-    <section class="hero">
-        <section class="container">
-            <div class="text-background">
-                <h1 class="herotitle">Hampont Roads Local Candidate</h1>
-                <p class="heroinstruction"> Please enter your address</p>
-                    <form action="">
-                        <input class="address" type="text" placeholder="Address" ng-model="address">
-                    </form>
+<body ng-controller="MainController">
+    <section class="featured hero">
+        <div class="container">
+            <div class="row mar-bot40">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="align-center">
+                        <i class="fa fa-flask fa-5x mar-bot20"></i>
+                        <h1 class="slogan">Hack the Vote</h1>
+                        <h2 class="slogan">Change the world, know your candidate.</h2>
+                        <p>
+                            Please enter your address.
+                        </p>
+                        <form action="">
+                            <input class="address" type="text" placeholder="Address" ng-model="address">
+                        </form>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
-
-    <div>
-      <ul>
-        <li ng-repeat='candidate in candidates'>
-          <img src="{{candidate.img}}">
-          {{candidate.name}}
-          <ol>
-            <li ng-repeat='issue in candidate.issues'>
-              {{issue.description}}
-              <button>{{issue.up}}</button>
-              <button>{{issue.down}}</button>
-            </li>
-            <li>
-              <form ng-submit="addNewIssue($event)">
-                <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description"/>
-              </form>
-            </li>
-          </ol>
-        </li>
-      </ul>
+    <!-- Candidates -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 hero-feature" ng-repeat="candidate in candidates">
+                <div class="thumbnail">
+                    <img src="{{candidate.img}}" alt="">
+                    <div class="caption">
+                        <h3>{{candidate.name}}</h3>
+                        <li ng-repeat='issue in candidate.issues'>
+                            <p>{{issue.description}}</p>
+                            <a class="btn btn-success">{{issue.up}}</a>
+                            <a class="btn btn-danger">{{issue.down}}</a>
+                        </li>
+                        <form ng-submit="addNewIssue($event)">
+                            <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
+    <div class="container">
+        <footer id="aboutFooter">
+            <div class="container centerText">
+                <a href="http://github.com/JoviaNierenberg/robopocalypse" target="_blank"><i class="fa fa-github-alt fa-3x"></i><h3 class="marginTop">GitHub Repo</h3></a>
+            </div>
+        </footer>
+    </div>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
     <script src='lib/angular/angular.min.js'></script>
     <script src="src/app.js"></script>
 </body>
+
 </html>
