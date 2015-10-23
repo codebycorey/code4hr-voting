@@ -20,4 +20,15 @@ app.controller('MainController', function($scope, DataService) {
     $scope.candidates = data.candidates;
     console.log(data.candidates);
   });
+
+  $scope.newIssue = {
+    description: "",
+    up: 0,
+    down: 0
+  };
+
+  $scope.addNewIssue = function($event){
+    console.log($scope.newIssue);
+    return false;
+  }
 });

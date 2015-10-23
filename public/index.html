@@ -11,12 +11,18 @@
     <div>
       <ul>
         <li ng-repeat='candidate in candidates'>
+          <img src="{{candidate.img}}">
           {{candidate.name}}
           <ol>
             <li ng-repeat='issue in candidate.issues'>
               {{issue.description}}
               <button>{{issue.up}}</button>
               <button>{{issue.down}}</button>
+            </li>
+            <li>
+              <form ng-submit="addNewIssue($event)">
+                <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description"/>
+              </form>
             </li>
           </ol>
         </li>
