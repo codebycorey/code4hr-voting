@@ -5,7 +5,23 @@ module.exports={
             "name": "Kenneth Cooper Alexander",
             "party": "D",
             "site": "http://ballotpedia.org/Kenny_Alexander",
-            "issues": [],
+            "issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "Senate of Virginia 5th District"
         },
@@ -14,7 +30,23 @@ module.exports={
             "name": "Daun Sessoms Hester",
             "party": "D",
             "site": "http://ballotpedia.org/Daun_Sessoms_Hester",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "House of Delegates 89th District"
         },
@@ -23,7 +55,23 @@ module.exports={
             "name": "Joseph C. \"Joe\" Lindsey",
             "party": "D",
             "site": "http://ballotpedia.org/Joseph_C._Lindsey",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
 			"office": "House of Delegates 90th District"
         },
@@ -32,7 +80,23 @@ module.exports={
             "name": "Lynwood W. Lewis, Jr.",
             "party": "D",
             "site": "http://ballotpedia.org/Lynwood_Lewis",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "Senate of Virginia 6th District"
         },
@@ -41,7 +105,23 @@ module.exports={
             "name": "Richard H. Ottinger",
             "party": "R",
             "site": "http://ballotpedia.org/Richard_Ottinger",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "Senate of Virginia 6th District"
         },
@@ -50,7 +130,23 @@ module.exports={
             "name": "Steve E. Heretick",
             "party": "D",
             "site": "http://ballotpedia.org/Steve_Heretick",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "House of Delegates 79th District"
         },
@@ -59,7 +155,23 @@ module.exports={
             "name": "Matthew James",
             "party": "D",
             "site": "http://ballotpedia.org/Matthew_James",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": "t/f",
             "office": "House of Delegates 80th District"
         },
@@ -68,7 +180,23 @@ module.exports={
             "name": "Chris P. STolle",
             "party": "R",
             "site": "http://ballotpedia.org/Christopher_Stolle",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "House of Delegates 83rd District"
         },
@@ -77,7 +205,23 @@ module.exports={
             "name": "Willie C. Randall",
             "party": "D",
             "site": "http://ballotpedia.org/Willie_C._Randall",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "House of Delegates 100th District"
         },
@@ -86,7 +230,23 @@ module.exports={
             "name": "Robert S. Bloxom, Jr.",
             "party": "R",
             "site": "http://ballotpedia.org/Robert_S._Bloxom,_Jr.",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "House of Delegates 100th District"
         },
@@ -95,7 +255,23 @@ module.exports={
             "name": "Gary T. McCollum",
             "party": "D",
             "site": "http://ballotpedia.org/Gary_McCollum",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "Senate of Virginia 7th District"
         },
@@ -104,7 +280,23 @@ module.exports={
             "name": "Frank W. Wagner",
             "party": "R",
             "site": "http://ballotpedia.org/Frank_Wagner",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "Senate of Virginia 7th District"
         },
@@ -113,7 +305,23 @@ module.exports={
            "name": "William DeSteph",
            "party": "R",
            "site": "http://ballotpedia.org/Bill_R._DeSteph,_Jr",
-           "issues": [],
+		   "issues": [
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 5,
+				"down": 2,
+			},
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 2,
+				"down": 0,
+			},
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 1,
+				"down": 0,
+			}
+		],
            "incumbent": true,
            "office": "Senate of Virginia 8th District"
 	   },
@@ -122,7 +330,23 @@ module.exports={
            "name": "Bill Fleming",
            "party": "D",
            "site": "http://ballotpedia.org/Bill_Fleming",
-           "issues": [],
+		   "issues": [
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 5,
+				"down": 2,
+			},
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 2,
+				"down": 0,
+			},
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 1,
+				"down": 0,
+			}
+		],
            "incumbent": true,
            "office": "House of Delegates 82nd District"
 	   },
@@ -131,7 +355,23 @@ module.exports={
            "name": "Jason Mivares",
            "party": "R",
            "site": "http://ballotpedia.org/Jason_Miyares",
-           "issues": [],
+		   "issues": [
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 5,
+				"down": 2,
+			},
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 2,
+				"down": 0,
+			},
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 1,
+				"down": 0,
+			}
+		],
            "incumbent": true,
            "office": "House of Delegates 82nd District"
 	   },
@@ -140,7 +380,23 @@ module.exports={
            "name": "Glenn Davis Jr.",
            "party": "D",
            "site": "http://ballotpedia.org/Glenn_Davis_(Virginia)",
-           "issues": [],
+		   "issues": [
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 5,
+				"down": 2,
+			},
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 2,
+				"down": 0,
+			},
+			{
+				"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+				"up": 1,
+				"down": 0,
+			}
+		],
            "incumbent": true,
            "office": "House of Delegates 84th District"
 	   },
@@ -149,7 +405,23 @@ module.exports={
             "name": "John A. Cosgrove",
             "party": "D",
             "site": "http://ballotpedia.org/John_Cosgrove",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "Senate of Virginia 14th District"
         },
@@ -158,7 +430,23 @@ module.exports={
             "name": "Susan B. Hippen",
             "party": "D",
             "site": "http://ballotpedia.org/Susan_Bates_Hippen",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "Member of House of Delegates 21st District"
         },
@@ -167,7 +455,23 @@ module.exports={
             "name": "Ron A. Villaneuva",
             "party": "R",
             "site": "http://ballotpedia.org/Ronald_Villanueva",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "Member of House of Delegates 21st District"
         },
@@ -176,7 +480,23 @@ module.exports={
             "name": "Barry D. Knight",
             "party": "R",
             "site": "http://ballotpedia.org/Barry_Knight",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "Member House of Delegates 81st District"
         },
@@ -185,7 +505,23 @@ module.exports={
             "name": "J.B. \"Jeff\" Saples",
             "party": "G",
             "site": "http://ballotpedia.org/Jeff_Staples",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "Member House of Delegates 81st District"
         },
@@ -194,7 +530,23 @@ module.exports={
             "name": "Scott W. Taylor",
             "party": "R",
             "site": "http://ballotpedia.org/Scott_W._Taylor_(Virginia)",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": true,
             "office": "Member House of Delegates 85st District"
         },
@@ -203,7 +555,23 @@ module.exports={
             "name": "Daniela G. Cossu",
             "party": "N/A",
             "site": "",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "Soil & Water Conservation Director Virginia Dare District"
         },
@@ -212,7 +580,23 @@ module.exports={
             "name": "Leslie A. Jones",
             "party": "N/A",
             "site": "",
-            "issues": [],
+			"issues": [
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 5,
+					"down": 2,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 2,
+					"down": 0,
+				},
+				{
+					"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
+					"up": 1,
+					"down": 0,
+				}
+			],
             "incumbent": false,
             "office": "Soil & Water Conservation Director Virginia Dare District"
         },
