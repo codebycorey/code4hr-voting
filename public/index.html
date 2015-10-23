@@ -6,21 +6,19 @@
 
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body>
-
-    <div class="container">
-        <div class="row">
-            <h1 class="align-center">Test</h1>
-            <div class="col-md-12" ng-include="'views/nav.html'"></div>
-            <div class="col-md-12" ng-view></div>
-        </div>
+<body ng-controller="MainController">
+    <div>
+      <ul>
+        <li ng-repeat='candidate in candidates'>
+          {{candidate.name}}
+        </li>
+      </ul>
     </div>
-
+</div>
 
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
     <script src='lib/angular/angular.min.js'></script>
     <script src="src/app.js"></script>
-    <script src="src/controllers.js"></script>
 </body>
 </html>
