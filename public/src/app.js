@@ -20,16 +20,30 @@ app.factory('DataService', function($q, $http) {
 
 app.controller('MainController', function($scope, DataService) {
 
-    //$scope.address = '';
     $scope.address = '';
     $scope.civicInfo = null;
 
     $scope.getCivicInfo = function() {
         DataService.getData($scope.address).then(function(data) {
             $scope.civicInfo = data;
-            console.log(data);
         });
     };
+
+    $scope.formatPhone = function(phonenum) {
+        var regexObj = /^(?:\+?1[-. ]?)?(?:\(?([0-9]{3})\)?[-. ]?)?([0-9]{3})[-. ]?([0-9]{4})$/;
+        if (regexObj.test(phonenum)) {
+            var parts = phonenum.match(regexObj);
+            var phone = "";
+            if (parts[1]) {
+                phone += "(" + parts[1] + ") ";
+            }
+            phone += parts[2] + "-" + parts[3];
+            return phone;
+        } else {
+            //invalid phone number
+            return phonenum;
+        }
+    }
 });
 
 /*

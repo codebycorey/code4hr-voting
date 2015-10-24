@@ -110,13 +110,15 @@
                                 <p><b>{{candidate.name}}</b></p>
                             </div>
                             <div class="col-md-3 spacedOut">
-                                <p ng-class="candidate.party =='Democratic' ? 'blueParty' : 'redParty'">{{candidate.party}}</p>
+                                <p ng-class="{'blueParty':candidate.party == 'Democratic',
+                                              'redParty':candidate.party == 'Republican',
+                                              'purpParty':candidate.party == 'Independent'}">{{candidate.party}}</p>
                             </div>
                             <div class="col-md-3 spacedOut">
                                 <p><a href="mailto:{{candidate.email}}">{{candidate.email}}</a></p>
                             </div>
                             <div class="col-md-3 spacedOut">
-                                <p>{{candidate.phone}}</p>
+                                <p>{{formatPhone(candidate.phone)}}</p>
                             </div>
                         </div>
                         <!-- <div ng-show="contest.candidates==null">
