@@ -27,6 +27,9 @@ app.controller('MainController', function($scope, DataService) {
     $scope.getCivicInfo = function() {
         DataService.getData($scope.address).then(function(data) {
             $scope.civicInfo = data;
+
+            $scope.civicInfo.election.electionDOTW = moment($scope.civicInfo.election.electionDay).format('dddd');
+            $scope.civicInfo.election.electionDay = moment($scope.civicInfo.election.electionDay).format('MMMM D, YYYY');
             console.log(data);
         });
     };
