@@ -65,7 +65,7 @@
                     <div class="row spacedOut">
                         <h2 class="marginBottom">Your Polling Location</h2>
                     </div>
-                        <h4>
+                    <h4>
                             <a href="{{mapLink(pollingLoc.address.line1, pollingLoc.address.city, pollingLoc.address.state, pollingLoc.address.zip)}}" target="_blank">
                                 <div class="row spacedOut">
                                     {{pollingLoc.address.line1}}
@@ -78,7 +78,7 @@
                                 </div>
                             </a>
                         </h4>
-                    </div>
+                </div>
                 <!-- Displaying Election Polling Hours -->
                 <div class="col-md-6">
                     <div class="row spacedOut">
@@ -140,32 +140,32 @@
                 <div class="row theFooter">
                     <div class="col-md-6">
                         <a class="git-link" target="_blank" href="https://github.com/rcodonnell/code4hr-voting"><i class="fa fa-github fa-5x"></i></a>
-                            </div>
-                            <div class="col-md-6 align-right">
-                                <p><b>Alternate First Past the Post</b></p>
-                                <p class="names"><a target="_blank" href="https://github.com/thecbliss">Chris Bliss</a> / <a target="_blank" href="https://github.com/gtsoy454">Galina Tsoy</a> / <a target="_blank" href="">Joshua Harris</a></p>
-                                <p class="names"><a target="_blank" href="http://fvcproductions.com/">FVCproductions</a> / <a target="_blank" href="https://github.com/mark4carter">Mark Carter</a> / <a target="_blank" href="http://www.rcodonnell.com/">Corey O'Donnell</a> </p>
-                            </div>
-                        </div>
                     </div>
-                    </footer>
-                    <script src="lib/jquery/dist/jquery.min.js"></script>
-                    <script src="src/js/typed.js"></script>
-                    <script>
-                    $(function() {
-                        $(".typed").typed({
-                            strings: ["your district", "your city", "the world^1000"],
-                            typeSpeed: 50,
-                            backDelay: 2000,
-                            loop: true,
-                        });
-                    });
-                    </script>
-                    <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
-                    <script src='lib/angular/angular.min.js'></script>
-                    <script src='lib/moment/moment.js'></script>
-                    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
-                    <script src="src/app.js"></script>
+                    <div class="col-md-6 align-right">
+                        <p><b>Alternate First Past the Post</b></p>
+                        <p class="names"><a target="_blank" href="https://github.com/thecbliss">Chris Bliss</a> / <a target="_blank" href="https://github.com/gtsoy454">Galina Tsoy</a> / <a target="_blank" href="">Joshua Harris</a></p>
+                        <p class="names"><a target="_blank" href="http://fvcproductions.com/">FVCproductions</a> / <a target="_blank" href="https://github.com/mark4carter">Mark Carter</a> / <a target="_blank" href="http://www.rcodonnell.com/">Corey O'Donnell</a> </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="lib/jquery/dist/jquery.min.js"></script>
+        <script src="src/js/typed.js"></script>
+        <script>
+        $(function() {
+            $(".typed").typed({
+                strings: ["your district", "your city", "the world^1000"],
+                typeSpeed: 50,
+                backDelay: 2000,
+                loop: true,
+            });
+        });
+        </script>
+        <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
+        <script src='lib/angular/angular.min.js'></script>
+        <script src='lib/moment/moment.js'></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+        <script src="src/app.js"></script>
 </body>
 
 </html>
