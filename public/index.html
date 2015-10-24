@@ -8,26 +8,33 @@
     <meta name="description" content="Change the world, know your candidate.">
     <meta name="author" content="Hack2Win">
     <title>Hack the Vote</title>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="src/css/font-awesome.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Start Bootstrap -->
     <link rel="stylesheet" href="src/css/start_bootstrap.css">
+    <!-- Candidate Cards -->
+    <link rel="stylesheet" href="src/css/candidate.css">
+    <!-- Grayscale -->
     <link rel="stylesheet" href="src/css/grayscale.css">
+    <!-- Our Main Styling -->
     <link rel="stylesheet" href="src/css/style.css">
+    <!-- Favicon -->
     <link rel="icon" href="src/img/favicons/favicon.ico">
 </head>
 
 <body ng-controller="MainController">
     <section class="featured">
         <div class="container">
-            <div class="row mar-bot40">
+            <div class="row marginSuperTop">
                 <div class="col-md-6 col-md-offset-3">
-                    <div class="align-center">
-                        <i class="fa fa-flask fa-5x mar-bot20"></i>
-                        <!--<i class="fa fa-balance-scale"></i>-->
+                    <div class="align-center header">
+                        <i class="fa fa-balance-scale fa-5x marginBottom"></i>
                         <h1 class="title marginBottom">Hack the Vote</h1>
-                        <h2 class="slogan marginBottom 3d">Change the world, know your candidate.</h2>
+                        <h2 class="slogan marginBottom 3d">Change <span class="typed"></span>, know your candidate.</h2>
                         <p class="enterAddress">Please enter your address.</p>
-                        <form action="">
+                        <form>
                             <input class="address" type="text" placeholder="Address" ng-model="address">
                         </form>
                     </div>
@@ -36,27 +43,38 @@
         </div>
     </section>
     <!-- Candidates -->
-    <div class="container">
-        <div class="row" ng-repeat="candidate in candidates track by $index | orderBy: 'name'" ng-if="$index%4==0">
-            <div class="col-md-3 hero-feature" ng-repeat="i in [$index, $index+1, $index+2, $index+3]" ng-if="candidates[i]!=null">
-                <div class="thumbnail">
-                    <img src="{{candidates[i].img}}" alt="">
-                    <div class="caption">
-                        <h3>{{candidates[i].name}}</h3>
-                        <li ng-repeat='issue in candidates[i].issues'>
-                            <p>{{issue.description}}</p>
-                            <a class="btn btn-success" ng-click="changeVote('up', issue)">{{issue.up}}</a>
-                            <a class="btn btn-danger" ng-click="changeVote('down', issue)">{{issue.down}}</a>
-                        </li>
-                        <form ng-submit="addNewIssue($event)">
-                            <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description" />
-                        </form>
-                    </div>
+    <div class="container marginTop">
+        <div class="row" ng-repeat="candidate in candidates track by $index | orderBy: 'name'" ng-if="$index%2==0">
+            <div class="col-md-6 hero-feature panel panel-default bootcards-media candidateCard align-center" ng-repeat="i in [$index, $index+1]" ng-if="candidates[i]!=null">
+                <img src="{{candidates[i].img}}" alt="">
+                <div class="panel-heading">
+                    <h3>{{candidates[i].name}}</h3>
+                </div>
+                <div class="panel-footer">
+                    <li ng-repeat='issue in candidates[i].issues'>
+                        <p>{{issue.description}}</p>
+                        <a class="btn btn-success" ng-click="changeVote('up', issue)">{{issue.up}}</a>
+                        <a class="btn btn-danger" ng-click="changeVote('down', issue)">{{issue.down}}</a>
+                    </li>
+                    <form ng-submit="addNewIssue($event)">
+                        <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description" />
+                    </form>
                 </div>
             </div>
         </div>
     </div>
     <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="src/js/typed.js"></script>
+    <script>
+    $(function() {
+        $(".typed").typed({
+            strings: ["your district", "your city", "the world^1000"],
+            typeSpeed: 50,
+            backDelay: 2000,
+            loop: true,
+        });
+    });
+    </script>
     <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
     <script src='lib/angular/angular.min.js'></script>
     <script src="src/app.js"></script>

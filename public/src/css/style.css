@@ -6,6 +6,8 @@
     background-size: cover;
     height: 100vh;
     width: 100%;
+    background-color: blue;
+    background-blend-mode: screen;
 }
 
 .portfolio-item {
@@ -70,13 +72,12 @@
     margin-bottom: 30px;
 }
 
-section.featured h2.slogan {
-    color: white;
-    font-size: 50px;
+section.featured {
+    color: black;
 }
 
-p.enterAddress {
-    color: black;
+section.featured h2.slogan {
+    font-size: 50px;
 }
 
 textarea,
@@ -100,4 +101,60 @@ input[type=number],
 
 .threeD {
     text-shadow: 0 1px 0 white, 0 2px 0 white, 0 3px 0 white, 0 4px 0 white, 0 5px 0 white, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.container.marginTop {
+    margin-top: 5%;
+}
+
+.marginSuperTop {
+    margin-top: 20%;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.header {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 10%;
 }
