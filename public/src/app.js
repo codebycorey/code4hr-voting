@@ -30,9 +30,10 @@ app.controller('MainController', function($scope, DataService) {
     });
   });
 
-  $scope.changeVote = function(flag, iss) {
-    names = iss.description;
+  $scope.changeVote = function(flag, iss, cName, ina) {
+    names = cName + ina + iss.description;
     voted = "none";
+    console.log(ina);
 
     if (names in $scope.voted) {
       voted = $scope.voted[names];

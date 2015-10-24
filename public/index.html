@@ -45,8 +45,8 @@
                         <h3>{{candidates[i].name}}</h3>
                         <li ng-repeat='issue in candidates[i].issues'>
                             <p>{{issue.description}}</p>
-                            <a class="btn btn-success" ng-click="changeVote('up', issue)">{{issue.up}}</a>
-                            <a class="btn btn-danger" ng-click="changeVote('down', issue)">{{issue.down}}</a>
+                            <a class="btn btn-success" ng-click="changeVote('up', issue, candidates[i].name, $index)">{{issue.up}}</a>
+                            <a class="btn btn-danger" ng-click="changeVote('down', issue, candidates[i].name, $index)">{{issue.down}}</a>
                         </li>
                         <form ng-submit="addNewIssue($event)">
                             <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description" />
