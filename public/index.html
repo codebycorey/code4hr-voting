@@ -32,9 +32,9 @@
                     <div class="align-center header">
                         <i class="fa fa-balance-scale fa-5x marginBottom"></i>
                         <h1 class="title marginBottom">Hack the Vote</h1>
-                        <h2 class="slogan marginBottom 3d">Change <span class="typed"></span>, know your candidate.</h2>
+                        <h2 class="slogan marginBottom 3d">Change
+                            <span class="typed"></span>, know your candidate.</h2>
                         <p class="enterAddress">Please enter your address.</p>
-                        <form>
                             <form ng-submit="getCivicInfo()">
                                 <input class="address" type="text" placeholder="Address" ng-model="address">
                             </form>
@@ -62,7 +62,7 @@
         </div>
     </div>
     <!-- Candidates -->
-     <!-- <div class="container marginTop">
+    <!-- <div class="container marginTop">
         <div class="row" ng-repeat="candidate in candidates track by $index | orderBy: 'name'" ng-if="$index%2==0">
             <div class="col-md-6 hero-feature panel panel-default bootcards-media candidateCard align-center" ng-repeat="i in [$index, $index+1]" ng-if="candidates[i]!=null">
                 <img src="{{candidates[i].img}}" alt="">
@@ -98,21 +98,42 @@
                             </div>
                         </div>
                     </div> -->
-                    <script src="lib/jquery/dist/jquery.min.js"></script>
-                    <script src="src/js/typed.js"></script>
-                    <script>
-                    $(function() {
-                        $(".typed").typed({
-                            strings: ["your district", "your city", "the world^1000"],
-                            typeSpeed: 50,
-                            backDelay: 2000,
-                            loop: true,
-                        });
-                    });
-                    </script>
-                    <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
-                    <script src='lib/angular/angular.min.js'></script>
-                    <script src="src/app.js"></script>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="git-link" href="https://github.com/rcodonnell/code4hr-voting"><i class="fa fa-github fa-5x"></i></a>
+                </div>
+                <div class="col-md-6 align-right">
+                    <p>Alternate First Past the Post</p>
+                    <p class="names">Chris Bliss / Galina Tsoy / Joshua Harris</p>
+                    <p class="names">FVC Productions / Mark Carter / Corey O'Donnell </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="src/js/typed.js"></script>
+    <script>
+        $(function() {
+            $(".typed").typed({
+                strings: ["your district", "your city", "the world^1000"],
+                typeSpeed: 50,
+                backDelay: 2000,
+                loop: true,
+            });
+        });
+    </script>
+    <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
+    <script src='lib/angular/angular.min.js'></script>
+    <script src="src/app.js"></script>
+
+
+
 </body>
 
 </html>

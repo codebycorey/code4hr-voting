@@ -158,3 +158,18 @@ input[type=number],
     background-color: rgba(255, 255, 255, .6);
     padding: 10%;
 }
+
+footer {
+    color: #2e2e2e;
+    margin-top: 50px;
+    background-color: #e3e3e3;
+}
+footer a {
+    color: #2e2e2e;
+}
+footer a:hover {
+    color: #2196F3;
+}
+footer .names {
+    font-size: 12px;
+}
