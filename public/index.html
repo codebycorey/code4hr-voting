@@ -35,15 +35,34 @@
                         <h2 class="slogan marginBottom 3d">Change <span class="typed"></span>, know your candidate.</h2>
                         <p class="enterAddress">Please enter your address.</p>
                         <form>
-                            <input class="address" type="text" placeholder="Address" ng-model="address">
-                        </form>
+                            <form ng-submit="getCivicInfo()">
+                                <input class="address" type="text" placeholder="Address" ng-model="address">
+                            </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <div>
+        <div>
+            <h3>Your polling location</h3>
+            <div ng-repeat="pollingLoc in civicInfo.pollingLocations">
+                <p>{{pollingLoc.address.line1}} {{pollingLoc.address.locationName}}, {{pollingLoc.address.city}}, {{pollingLoc.address.state}}</p>
+                <p>@ {{pollingLoc.pollingHours}}</p>
+            </div>
+        </div>
+        <div>
+            <h3>Upcoming Elections for {{civicInfo.election.electionDay}}</h3>
+            <div ng-repeat="contest in civicInfo.contests">
+                <h4>Election for {{contest.office}}</h4>
+                <div ng-repeat="candidate in contest.candidates">
+                    <p>{{candidate.name}} - {{candidate.party}} - {{candidate.email}} - {{candidate.phone}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Candidates -->
-    <div class="container marginTop">
+     <!-- <div class="container marginTop">
         <div class="row" ng-repeat="candidate in candidates track by $index | orderBy: 'name'" ng-if="$index%2==0">
             <div class="col-md-6 hero-feature panel panel-default bootcards-media candidateCard align-center" ng-repeat="i in [$index, $index+1]" ng-if="candidates[i]!=null">
                 <img src="{{candidates[i].img}}" alt="">
@@ -59,25 +78,41 @@
                     <form ng-submit="addNewIssue($event)">
                         <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description" />
                     </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="lib/jquery/dist/jquery.min.js"></script>
-    <script src="src/js/typed.js"></script>
-    <script>
-    $(function() {
-        $(".typed").typed({
-            strings: ["your district", "your city", "the world^1000"],
-            typeSpeed: 50,
-            backDelay: 2000,
-            loop: true,
-        });
-    });
-    </script>
-    <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
-    <script src='lib/angular/angular.min.js'></script>
-    <script src="src/app.js"></script>
+                    <div class="container">
+                        <div class="row" ng-repeat="candidate in candidates track by $index | orderBy: 'name'" ng-if="$index%4==0">
+                            <div class="col-md-3 hero-feature" ng-repeat="i in [$index, $index+1, $index+2, $index+3]" ng-if="candidates[i]!=null">
+                                <div class="thumbnail">
+                                    <img src="{{candidates[i].img}}" alt="">
+                                    <div class="caption">
+                                        <h3>{{candidates[i].name}}</h3>
+                                        <li ng-repeat='issue in candidates[i].issues'>
+                                            <p>{{issue.description}}</p>
+                                            <a class="btn btn-success" ng-click="changeVote('up', issue, candidates[i].name, $index)">{{issue.up}}</a>
+                                            <a class="btn btn-danger" ng-click="changeVote('down', issue, candidates[i].name, $index)">{{issue.down}}</a>
+                                        </li>
+                                        <form ng-submit="addNewIssue($event)">
+                                            <input type="text" placeholder="Add a new Issue" ng-model="newIssue.description" />
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <script src="lib/jquery/dist/jquery.min.js"></script>
+                    <script src="src/js/typed.js"></script>
+                    <script>
+                    $(function() {
+                        $(".typed").typed({
+                            strings: ["your district", "your city", "the world^1000"],
+                            typeSpeed: 50,
+                            backDelay: 2000,
+                            loop: true,
+                        });
+                    });
+                    </script>
+                    <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
+                    <script src='lib/angular/angular.min.js'></script>
+                    <script src="src/app.js"></script>
 </body>
 
 </html>
