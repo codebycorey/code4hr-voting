@@ -7,15 +7,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "Senate of Virginia 5th District"
@@ -27,15 +27,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "House of Delegates 89th District"
@@ -47,15 +47,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "House of Delegates 90th District"
@@ -67,15 +67,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "Senate of Virginia 6th District"
@@ -87,15 +87,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "Senate of Virginia 6th District"
@@ -107,15 +107,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "House of Delegates 79th District"
@@ -127,15 +127,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": "t/f",
     "office": "House of Delegates 80th District"
@@ -147,15 +147,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "House of Delegates 83rd District"
@@ -167,15 +167,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "House of Delegates 100th District"
@@ -187,15 +187,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "House of Delegates 100th District"
@@ -207,15 +207,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "Senate of Virginia 7th District"
@@ -227,15 +227,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "Senate of Virginia 7th District"
@@ -247,15 +247,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "Senate of Virginia 8th District"
@@ -267,15 +267,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "House of Delegates 82nd District"
@@ -287,15 +287,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "House of Delegates 82nd District"
@@ -307,15 +307,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "House of Delegates 84th District"
@@ -327,15 +327,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "Senate of Virginia 14th District"
@@ -347,15 +347,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "Member of House of Delegates 21st District"
@@ -367,15 +367,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "Member of House of Delegates 21st District"
@@ -387,15 +387,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "Member House of Delegates 81st District"
@@ -407,15 +407,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "Member House of Delegates 81st District"
@@ -427,15 +427,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": true,
     "office": "Member House of Delegates 85st District"
@@ -447,15 +447,15 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "Soil & Water Conservation Director Virginia Dare District"
@@ -467,17 +467,17 @@
     "issues": [{
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 5,
-      "down": 2,
+      "down": 2
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 2,
-      "down": 0,
+      "down": 0
     }, {
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt facilis id, hic! Autem molestiae alias, esse perferendis laborum, cumque",
       "up": 1,
-      "down": 0,
+      "down": 0
     }],
     "incumbent": false,
     "office": "Soil & Water Conservation Director Virginia Dare District"
-  }, ]
+  } ]
 }
