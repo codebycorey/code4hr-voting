@@ -21,8 +21,8 @@ app.factory('DataService', function($q, $http) {
 app.controller('MainController', function($scope, DataService) {
 
     //$scope.address = '';
-    $scope.address = '4509 Boxford Road';
-    $scope.civicInfo = {};
+    $scope.address = '';
+    $scope.civicInfo = null;
 
     $scope.getCivicInfo = function() {
         DataService.getData($scope.address).then(function(data) {
