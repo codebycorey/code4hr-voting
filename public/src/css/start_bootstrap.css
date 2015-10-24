@@ -566,6 +566,7 @@ section.featured {
     background: url('/src/img/splash.jpg') no-repeat center center;
     ;
     color: #fdfdfd;
+    height: 100vh;
 }
 
 section.featured h2.slogan {
