@@ -576,7 +576,8 @@ section.featured h2.slogan {
 }
 
 section.featured h1.title {
-    color: black;
+    /*color: black;*/
+    color: #183E5C;
     font-size: 25px;
     font-weight: 900;
 }
