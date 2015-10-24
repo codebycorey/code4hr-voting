@@ -22,7 +22,7 @@ app.controller('MainController', function($scope, DataService) {
 
     //$scope.address = '';
     $scope.address = '';
-    $scope.civicInfo = {};
+    $scope.civicInfo = null;
 
     $scope.getCivicInfo = function() {
         DataService.getData($scope.address).then(function(data) {

@@ -34,16 +34,15 @@
                         <h1 class="title marginBottom">Hack the Vote</h1>
                         <h2 class="slogan marginBottom 3d">Change <span class="typed"></span>, know your candidate.</h2>
                         <p class="enterAddress">Please enter your address.</p>
-                        <form>
-                            <form ng-submit="getCivicInfo()">
-                                <input class="address" type="text" placeholder="Address" ng-model="address">
-                            </form>
+                          <form ng-submit="getCivicInfo()">
+                              <input class="address" type="text" placeholder="Address" ng-model="address">
+                          </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <div>
+    <div ng-show="civicInfo">
         <div>
             <h3>Your polling location</h3>
             <div ng-repeat="pollingLoc in civicInfo.pollingLocations">
