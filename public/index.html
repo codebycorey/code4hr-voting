@@ -65,16 +65,20 @@
                     <div class="row spacedOut">
                         <h2 class="marginBottom">Your Polling Location</h2>
                     </div>
-                    <div class="row spacedOut">
-                        <h4>{{pollingLoc.address.line1}}</h4>
+                        <h4>
+                            <a href="{{mapLink(pollingLoc.address.line1, pollingLoc.address.city, pollingLoc.address.state, pollingLoc.address.zip)}}">
+                                <div class="row spacedOut">
+                                    {{pollingLoc.address.line1}}
+                                </div>
+                                <div class="row spacedOut">
+                                    {{pollingLoc.address.locationName | lowercase}}
+                                </div>
+                                <div class="row spacedOut">
+                                    {{pollingLoc.address.city}}, {{pollingLoc.address.state}}
+                                </div> 
+                            </a>
+                        </h4>
                     </div>
-                    <div class="row spacedOut">
-                        <h4>{{pollingLoc.address.locationName | lowercase}}</h4>
-                    </div>
-                    <div class="row spacedOut">
-                        <h4>{{pollingLoc.address.city}}, {{pollingLoc.address.state}}</h4>
-                    </div>
-                </div>
                 <!-- Displaying Election Polling Hours -->
                 <div class="col-md-6">
                     <div class="row spacedOut">
@@ -105,7 +109,7 @@
                 </div>
                 <div ng-repeat="contest in civicInfo.contests" class="marginBottom">
                     <div class="row spacedOut">
-                        <h4>Election for {{contest.office}}</h4>
+                        <h4>for {{contest.office}}</h4>
                     </div>
                     <div ng-repeat="candidate in contest.candidates">
                         <div class="row spacedOut">
@@ -113,13 +117,15 @@
                                 <p><b>{{candidate.name}}</b></p>
                             </div>
                             <div class="col-md-3 spacedOut">
-                                <p ng-class="candidate.party =='Democratic' ? 'blueParty' : 'redParty'">{{candidate.party}}</p>
+                                <p ng-class="{'blueParty':candidate.party == 'Democratic',
+                                              'redParty':candidate.party == 'Republican',
+                                              'purpParty':candidate.party == 'Independent'}">{{candidate.party}}</p>
                             </div>
                             <div class="col-md-3 spacedOut">
                                 <p><a href="mailto:{{candidate.email}}">{{candidate.email}}</a></p>
                             </div>
                             <div class="col-md-3 spacedOut">
-                                <p>{{candidate.phone}}</p>
+                                <p>{{formatPhone(candidate.phone)}}</p>
                             </div>
                         </div>
                         <!-- <div ng-show="contest.candidates==null">
@@ -131,7 +137,7 @@
         </div>
         <footer ng-show="civicInfo">
             <div class="container">
-                <div class="row">
+                <div class="row theFooter">
                     <div class="col-md-6">
                         <a class="git-link" target="_blank" href="https://github.com/rcodonnell/code4hr-voting"><i class="fa fa-github fa-5x"></i></a>
                             </div>
