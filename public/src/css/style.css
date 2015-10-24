@@ -173,11 +173,16 @@ input[type=number],
 
 footer {
     color: #2e2e2e;
-    margin-top: 50px;
+    margin-top: 1%;
 }
 
 footer a {
     color: #2e2e2e;
+}
+
+.row.theFooter {
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 footer a:hover {
