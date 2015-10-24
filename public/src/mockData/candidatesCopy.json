@@ -1,0 +1,220 @@
+{
+	"candidates": [
+		{
+            "img": "http://ballotpedia.org/wiki/images/6/65/Kenny_Alexander.jpg",
+            "name": "Kenneth Cooper Alexander",
+            "party": "D",
+            "site": "http://ballotpedia.org/Kenny_Alexander",
+            "issues": [],
+            "incumbent": true,
+            "office": "Senate of Virginia 5th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/2/2f/Daun_Hester.jpg",
+            "name": "Daun Sessoms Hester",
+            "party": "D",
+            "site": "http://ballotpedia.org/Daun_Sessoms_Hester",
+            "issues": [],
+            "incumbent": true,
+            "office": "House of Delegates 89th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/f/f8/Joseph_Lindsey.jpg",
+            "name": "Joseph C. \"Joe\" Lindsey",
+            "party": "D",
+            "site": "http://ballotpedia.org/Joseph_C._Lindsey",
+            "issues": [],
+            "incumbent": true,
+			"office": "House of Delegates 90th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/8/86/Lynwood_Lewis.jpg",
+            "name": "Lynwood W. Lewis, Jr.",
+            "party": "D",
+            "site": "http://ballotpedia.org/Lynwood_Lewis",
+            "issues": [],
+            "incumbent": true,
+            "office": "Senate of Virginia 6th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
+            "name": "Richard H. Ottinger",
+            "party": "R",
+            "site": "http://ballotpedia.org/Richard_Ottinger",
+            "issues": [],
+            "incumbent": false,
+            "office": "Senate of Virginia 6th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
+            "name": "Steve E. Heretick",
+            "party": "D",
+            "site": "http://ballotpedia.org/Steve_Heretick",
+            "issues": [],
+            "incumbent": false,
+            "office": "House of Delegates 79th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/4/4d/Matthew_James.jpg",
+            "name": "Matthew James",
+            "party": "D",
+            "site": "http://ballotpedia.org/Matthew_James",
+            "issues": [],
+            "incumbent": "t/f",
+            "office": "House of Delegates 80th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/5/5a/Christopher_Stolle.jpg",
+            "name": "Chris P. STolle",
+            "party": "R",
+            "site": "http://ballotpedia.org/Christopher_Stolle",
+            "issues": [],
+            "incumbent": false,
+            "office": "House of Delegates 83rd District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
+            "name": "Willie C. Randall",
+            "party": "D",
+            "site": "http://ballotpedia.org/Willie_C._Randall",
+            "issues": [],
+            "incumbent": false,
+            "office": "House of Delegates 100th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/b/b3/RobertBloxom.jpg",
+            "name": "Robert S. Bloxom, Jr.",
+            "party": "R",
+            "site": "http://ballotpedia.org/Robert_S._Bloxom,_Jr.",
+            "issues": [],
+            "incumbent": true,
+            "office": "House of Delegates 100th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/8/8e/Gary_McCollum.jpg/200px-Gary_McCollum.jpg",
+            "name": "Gary T. McCollum",
+            "party": "D",
+            "site": "http://ballotpedia.org/Gary_McCollum",
+            "issues": [],
+            "incumbent": false,
+            "office": "Senate of Virginia 7th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/8/80/Frank_Wagner.jpg",
+            "name": "Frank W. Wagner",
+            "party": "R",
+            "site": "http://ballotpedia.org/Frank_Wagner",
+            "issues": [],
+            "incumbent": true,
+            "office": "Senate of Virginia 7th District"
+        },
+		{
+           "img": "http://ballotpedia.org/wiki/images/c/ca/William_DeSteph.jpg",
+           "name": "William DeSteph",
+           "party": "R",
+           "site": "http://ballotpedia.org/Bill_R._DeSteph,_Jr",
+           "issues": [],
+           "incumbent": true,
+           "office": "Senate of Virginia 8th District"
+
+	   },
+		{
+           "img": "http://ballotpedia.org/wiki/images/3/3a/Bill_Fleming.jpg",
+           "name": "Bill Fleming",
+           "party": "D",
+           "site": "http://ballotpedia.org/Bill_Fleming",
+           "issues": [],
+           "incumbent": true,
+           "office": "House of Delegates 82nd District"
+    }, {
+        "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
+        "name": "Jason Mivares",
+        "party": "R",
+        "site": "http://ballotpedia.org/Jason_Miyares",
+        "issues": [],
+        "incumbent": true,
+        "office": "House of Delegates 82nd District"
+	   },
+		{
+           "img": "http://ballotpedia.org/wiki/images/6/67/Glenn_Davis.jpg",
+           "name": "Glenn Davis Jr.",
+           "party": "D",
+           "site": "http://ballotpedia.org/Glenn_Davis_(Virginia)",
+           "issues": [],
+           "incumbent": true,
+           "office": "House of Delegates 84th District"
+	   },
+        {
+            "img": "http://ballotpedia.org/wiki/images/7/7d/John_Cosgrove.jpg",
+            "name": "John A. Cosgrove",
+            "party": "D",
+            "site": "http://ballotpedia.org/John_Cosgrove",
+            "issues": [],
+            "incumbent": true,
+            "office": "Senate of Virginia 14th District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
+            "name": "Susan B. Hippen",
+            "party": "D",
+            "site": "http://ballotpedia.org/Susan_Bates_Hippen",
+            "issues": [],
+            "incumbent": false,
+            "office": "Member of House of Delegates 21st District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/9/92/Ronald_Villanueva.jpg",
+            "name": "Ron A. Villaneuva",
+            "party": "R",
+            "site": "http://ballotpedia.org/Ronald_Villanueva",
+            "issues": [],
+            "incumbent": true,
+            "office": "Member of House of Delegates 21st District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/7/7b/Barry_Knight.jpg",
+            "name": "Barry D. Knight",
+            "party": "R",
+            "site": "http://ballotpedia.org/Barry_Knight",
+            "issues": [],
+            "incumbent": true,
+            "office": "Member House of Delegates 81st District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
+            "name": "J.B. \"Jeff\" Saples",
+            "party": "G",
+            "site": "http://ballotpedia.org/Jeff_Staples",
+            "issues": [],
+            "incumbent": false,
+            "office": "Member House of Delegates 81st District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/a/a3/Scott_Taylor.jpg/200px-Scott_Taylor.jpg",
+            "name": "Scott W. Taylor",
+            "party": "R",
+            "site": "http://ballotpedia.org/Scott_W._Taylor_(Virginia)",
+            "issues": [],
+            "incumbent": true,
+            "office": "Member House of Delegates 85st District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
+            "name": "Daniela G. Cossu",
+            "party": "N/A",
+            "site": "",
+            "issues": [],
+            "incumbent": false,
+            "office": "Soil & Water Conservation Director Virginia Dare District"
+        },
+        {
+            "img": "http://ballotpedia.org/wiki/images/thumb/8/89/Placeholder_image.png/150px-Placeholder_image.png",
+            "name": "Leslie A. Jones",
+            "party": "N/A",
+            "site": "",
+            "issues": [],
+            "incumbent": false,
+            "office": "Soil & Water Conservation Director Virginia Dare District"
+        }
+    ]
+}
