@@ -30,6 +30,18 @@ app.controller('MainController', function($scope, DataService) {
             console.log(data);
         });
     };
+
+    $scope.mapLink = function(one, two, three, four) {
+
+      var str = one + " " + two + " " + three;
+      var ad = encodeURIComponent(str);
+
+      var str2 = "https://www.google.com/maps/place/" + ad
+
+      return str2.toLowerCase();        
+    }
+
+
 });
 
 /*

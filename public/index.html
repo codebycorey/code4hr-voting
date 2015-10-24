@@ -65,16 +65,20 @@
                     <div class="row spacedOut">
                         <h2 class="marginBottom">Your Polling Location</h2>
                     </div>
-                    <div class="row spacedOut">
-                        <h4>{{pollingLoc.address.line1}}</h4>
+                        <h4>
+                            <a href="{{mapLink(pollingLoc.address.line1, pollingLoc.address.city, pollingLoc.address.state, pollingLoc.address.zip)}}">
+                                <div class="row spacedOut">
+                                    {{pollingLoc.address.line1}}
+                                </div>
+                                <div class="row spacedOut">
+                                    {{pollingLoc.address.locationName | lowercase}}
+                                </div>
+                                <div class="row spacedOut">
+                                    {{pollingLoc.address.city}}, {{pollingLoc.address.state}}
+                                </div> 
+                            </a>
+                        </h4>
                     </div>
-                    <div class="row spacedOut">
-                        <h4>{{pollingLoc.address.locationName | lowercase}}</h4>
-                    </div>
-                    <div class="row spacedOut">
-                        <h4>{{pollingLoc.address.city}}, {{pollingLoc.address.state}}</h4>
-                    </div>
-                </div>
                 <!-- Displaying Election Polling Hours -->
                 <div class="col-md-6">
                     <div class="spacedOut">
@@ -112,7 +116,7 @@
                             <p>{{candidate.party}}</p>
                         </div>
                         <div class="row spacedOut">
-                            <p>{{candidate.email}}</p>
+                            <p>{{candidate.email}</p>
                         </div>
                         <div class="row spacedOut">
                             <p>{{candidate.phone}}</p>
