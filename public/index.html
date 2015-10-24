@@ -42,7 +42,7 @@
                         </div>
                         <div class="row spacedOut">
                             <form ng-submit="getCivicInfo()">
-                                <input class="address" type="text" placeholder="Address" ng-model="address">
+                                <input class="address" type="text" placeholder="Address" ng-model="address" googleplace>
                             </form>
                         </div>
                         <div class="row spacedOut">
@@ -158,6 +158,7 @@
                     <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
                     <script src='lib/angular/angular.min.js'></script>
                     <script src='lib/moment/moment.js'></script>
+                    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
                     <script src="src/app.js"></script>
 </body>
 
