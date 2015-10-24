@@ -19,7 +19,7 @@ app.factory('DataService', function($q, $http) {
 app.controller('MainController', function($scope, DataService) {
 
   //$scope.address = '';
-  $scope.address = '4509 Boxford Road';
+  $scope.address = '';
   $scope.civicInfo = {};
 
   $scope.getCivicInfo = function() {
