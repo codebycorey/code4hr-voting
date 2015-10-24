@@ -2,9 +2,10 @@ var app = angular.module('LocalVotingApp', []);
 
 app.factory('DataService', function($q, $http) {
   return {
-      getData: function() {
+      getData: function(address) {
           var defer = $q.defer();
-          $http.get('./src/mockData/candidates.json', { cache: 'true'})
+          var addr = encodeURIComponent(address);
+          $http.get('https://www.googleapis.com/civicinfo/v2/voterinfo?address='+ addr +'&key=AIzaSyB16sS2CG5ySFh--gRk0S8s90yDbJX_fJU', { cache: 'true'})
           .success(function(data) {
               defer.resolve(data);
           });
@@ -17,6 +18,18 @@ app.factory('DataService', function($q, $http) {
 
 app.controller('MainController', function($scope, DataService) {
 
+  //$scope.address = '';
+  $scope.address = '4509 Boxford Road';
+  $scope.civicInfo = {};
+
+  $scope.getCivicInfo = function() {
+    DataService.getData($scope.address).then(function(data){
+      $scope.civicInfo = data;
+      console.log(data);
+    });
+  }
+
+/*
     $scope.address = '';
 
   //$scope.voted = 'none';
@@ -82,4 +95,5 @@ app.controller('MainController', function($scope, DataService) {
     $scope.newIssue = {};
     $event.preventDefault();
   }
+  */
 });
