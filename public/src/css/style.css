@@ -1,3 +1,7 @@
+body {
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/shattered.png");
+}
+
 .hero {
     background: url('src/img/splash.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -157,4 +161,9 @@ input[type=number],
 .header {
     background-color: rgba(255, 255, 255, .6);
     padding: 10%;
+}
+
+.spacedOut {
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
