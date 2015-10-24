@@ -27,7 +27,7 @@
                         <h1 class="title marginBottom">Hack the Vote</h1>
                         <h2 class="slogan marginBottom 3d">Change the world, know your candidate.</h2>
                         <p class="enterAddress">Please enter your address.</p>
-                        <form action="">
+                        <form ng-submit="getCivicInfo()">
                             <input class="address" type="text" placeholder="Address" ng-model="address">
                         </form>
                     </div>
@@ -35,6 +35,24 @@
             </div>
         </div>
     </section>
+    <div>
+      <div>
+        <h3>Your polling location</h3>
+        <div ng-repeat="pollingLoc in civicInfo.pollingLocations">
+          <p>{{pollingLoc.address.line1}} {{pollingLoc.address.locationName}}, {{pollingLoc.address.city}}, {{pollingLoc.address.state}}</p>
+          <p>@ {{pollingLoc.pollingHours}}</p>
+        </div>
+      </div>
+      <div>
+        <h3>Upcoming Elections for {{civicInfo.election.electionDay}}</h3>
+        <div ng-repeat="contest in civicInfo.contests">
+          <h4>Election for {{contest.office}}</h4>
+          <div ng-repeat="candidate in contest.candidates">
+            <p>{{candidate.name}} - {{candidate.party}} - {{candidate.email}} - {{candidate.phone}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Candidates -->
     <div class="container">
         <div class="row" ng-repeat="candidate in candidates track by $index | orderBy: 'name'" ng-if="$index%4==0">
