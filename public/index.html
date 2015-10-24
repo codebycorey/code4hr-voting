@@ -81,17 +81,20 @@
                     </div>
                 <!-- Displaying Election Polling Hours -->
                 <div class="col-md-6">
-                    <div class="spacedOut">
-                        <i class="fa fa-clock-o"></i>
+                    <div class="row spacedOut">
+                        <i class="fa fa-clock-o fa-5x"></i>
                     </div>
                     <div class="row spacedOut">
-                        <h2>When & Where?</h2>
+                        <h2 class="marginBottom">When & Where?</h2>
                     </div>
                     <div class="row spacedOut">
-                        <p>{{pollingLoc.pollingHours}}</p>
+                        <h4>{{pollingLoc.pollingHours}}</h4>
                     </div>
                     <div class="row spacedOut">
-                        <h3>{{civicInfo.election.electionDay}}</h3>
+                        <h4>{{civicInfo.election.electionDOTW}}</h4>
+                    </div>
+                    <div class="row spacedOut">
+                        <h4>{{civicInfo.election.electionDay}}</h4>
                     </div>
                 </div>
             </div>
@@ -99,67 +102,69 @@
         <div class="row">
             <div class="col-md-12 hero-feature panel panel-default bootcards-media candidateCard align-center">
                 <div class="row spacedOut">
-                    <i class="fa fa-users"></i>
+                    <i class="fa fa-users fa-5x"></i>
                 </div>
                 <div class="row spacedOut">
-                    <h2>Who's Running?</h2>
+                    <h2 class="marginBottom">Who's Running?</h2>
                 </div>
-                <div ng-repeat="contest in civicInfo.contests" class="col-md-6">
+                <div ng-repeat="contest in civicInfo.contests" class="marginBottom">
                     <div class="row spacedOut">
                         <h4>Election for {{contest.office}}</h4>
                     </div>
-                    <div ng-repeat="candidate in contest.candidates" class="col-md-4">
+                    <div ng-repeat="candidate in contest.candidates">
                         <div class="row spacedOut">
-                            <p>{{candidate.name}}</p>
+                            <div class="col-md-3 spacedOut">
+                                <p><b>{{candidate.name}}</b></p>
+                            </div>
+                            <div class="col-md-3 spacedOut">
+                                <p ng-class="{'blueParty':candidate.party == 'Democratic',
+                                              'redParty':candidate.party == 'Republican',
+                                              'purpParty':candidate.party == 'Independent'}">{{candidate.party}}</p>
+                            </div>
+                            <div class="col-md-3 spacedOut">
+                                <p><a href="mailto:{{candidate.email}}">{{candidate.email}}</a></p>
+                            </div>
+                            <div class="col-md-3 spacedOut">
+                                <p>{{formatPhone(candidate.phone)}}</p>
+                            </div>
                         </div>
-                        <div class="row spacedOut">
-                            <p>{{candidate.party}}</p>
-                        </div>
-                        <div class="row spacedOut">
-                            <p>{{candidate.email}</p>
-                        </div>
-                        <div class="row spacedOut">
-                            <p>{{candidate.phone}}</p>
-                        </div>
-                    </div>
-                    <div ng-show="content.candidates==null">
-                        <p>Sorry, there's nothing here. :(</p>
+                        <!-- <div ng-show="contest.candidates==null">
+                            <p>Sorry, there's nothing here. :(</p>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <footer ng-show="civicInfo">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <a class="git-link" target="_blank" href="https://github.com/rcodonnell/code4hr-voting"><i class="fa fa-github fa-5x"></i></a>
-                </div>
-                <div class="col-md-6 align-right">
-                    <p><b>Alternate First Past the Post</b></p>
-                    <p class="names">Chris Bliss / Galina Tsoy / Joshua Harris</p>
-                    <p class="names">FVC Productions / Mark Carter / Corey O'Donnell </p>
-                    <p class="names"><a target="_blank" href="https://github.com/thecbliss">Chris Bliss</a> / <a target="_blank" href="https://github.com/gtsoy454">Galina Tsoy</a> / <a target="_blank" href="">Joshua Harris</a></p>
-                    <p class="names"><a target="_blank" href="http://fvcproductions.com/">FVC Productions</a> / <a target="_blank" href="https://github.com/mark4carter">Mark Carter</a> / <a target="_blank" href="http://www.rcodonnell.com/">Corey O'Donnell</a> </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="lib/jquery/dist/jquery.min.js"></script>
-    <script src="src/js/typed.js"></script>
-    <script>
-    $(function() {
-        $(".typed").typed({
-            strings: ["your district", "your city", "the world^1000"],
-            typeSpeed: 50,
-            backDelay: 2000,
-            loop: true,
-        });
-    });
-    </script>
-    <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
-    <script src='lib/angular/angular.min.js'></script>
-    <script src="src/app.js"></script>
+        <footer ng-show="civicInfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="git-link" target="_blank" href="https://github.com/rcodonnell/code4hr-voting"><i class="fa fa-github fa-5x"></i></a>
+                            </div>
+                            <div class="col-md-6 align-right">
+                                <p><b>Alternate First Past the Post</b></p>
+                                <p class="names"><a target="_blank" href="https://github.com/thecbliss">Chris Bliss</a> / <a target="_blank" href="https://github.com/gtsoy454">Galina Tsoy</a> / <a target="_blank" href="">Joshua Harris</a></p>
+                                <p class="names"><a target="_blank" href="http://fvcproductions.com/">FVCproductions</a> / <a target="_blank" href="https://github.com/mark4carter">Mark Carter</a> / <a target="_blank" href="http://www.rcodonnell.com/">Corey O'Donnell</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    </footer>
+                    <script src="lib/jquery/dist/jquery.min.js"></script>
+                    <script src="src/js/typed.js"></script>
+                    <script>
+                    $(function() {
+                        $(".typed").typed({
+                            strings: ["your district", "your city", "the world^1000"],
+                            typeSpeed: 50,
+                            backDelay: 2000,
+                            loop: true,
+                        });
+                    });
+                    </script>
+                    <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
+                    <script src='lib/angular/angular.min.js'></script>
+                    <script src='lib/moment/moment.js'></script>
+                    <script src="src/app.js"></script>
 </body>
 
 </html>
