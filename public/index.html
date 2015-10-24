@@ -2,22 +2,18 @@
 <html lang="en" ng-app="LocalVotingApp">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Change the world, know your candidate.">
     <meta name="author" content="Hack2Win">
-
     <title>Hack the Vote</title>
-
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/font-awesome.css">
     <link rel="stylesheet" href="src/css/start_bootstrap.css">
     <link rel="stylesheet" href="src/css/grayscale.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="icon" href="src/img/favicons/favicon.ico">
-
 </head>
 
 <body ng-controller="MainController">
@@ -28,8 +24,8 @@
                     <div class="align-center" ng-class="(address === '') ? 'm20' : 'm5'">
                         <i class="fa fa-flask fa-5x mar-bot20"></i>
                         <!--<i class="fa fa-balance-scale"></i>-->
-                        <h1 class="title">Hack the Vote</h1>
-                        <h2 class="slogan">Change the world, know your candidate.</h2>
+                        <h1 class="title marginBottom">Hack the Vote</h1>
+                        <h2 class="slogan marginBottom 3d">Change the world, know your candidate.</h2>
                         <p class="enterAddress">Please enter your address.</p>
                         <form action="">
                             <input class="address" type="text" placeholder="Address" ng-model="address">
@@ -44,7 +40,7 @@
         <div class="row" ng-repeat="candidate in candidates track by $index | orderBy: 'name'" ng-if="$index%4==0">
             <div class="col-md-3 hero-feature" ng-repeat="i in [$index, $index+1, $index+2, $index+3]" ng-if="candidates[i]!=null">
                 <div class="thumbnail">
-                    <img class="img-responsive politican" src="{{candidates[i].img}}" alt="">
+                    <img src="{{candidates[i].img}}" alt="">
                     <div class="caption">
                         <h3>{{candidates[i].name}}</h3>
                         <li ng-repeat='issue in candidates[i].issues'>
