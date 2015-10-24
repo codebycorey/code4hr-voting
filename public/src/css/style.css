@@ -162,7 +162,7 @@ input[type=number],
 .header {
     background-color: rgba(255, 255, 255, .6);
     padding: 10%;
-    margin-top: 20%;
+    margin-top: 15%;
     height: 650px;
 }
 
@@ -203,6 +203,10 @@ footer .names {
 
 .redParty {
     color: red;
+}
+
+.purpParty {
+    color: purple;
 }
 
 a:hover {
