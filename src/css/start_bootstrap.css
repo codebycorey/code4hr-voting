@@ -563,8 +563,7 @@ h1 a.navbar-brand {
 
 section.featured {
     padding: 200px 0jt 60px;
-    background: url('/src/img/splash.jpg') no-repeat center center;
-    ;
+    background: url('../img/splash.jpg') no-repeat center center;
     color: #fdfdfd;
     height: 100vh;
 }
