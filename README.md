@@ -6,13 +6,9 @@
 
 ### "Change the world, know your candidate."
 
-> 🔨 with ❤️ at the <a href="http://hackathon.dominionenterprises.com/" title="Hack to Help Hampton Roads" target="_blank">Hack to Help Hampton Roads</a> hackathon
+> :hammer:ed with :heart: at the <a href="http://hackathon.dominionenterprises.com/" title="Hack to Help Hampton Roads" target="_blank">Hack to Help Hampton Roads</a> hackathon
 
-[![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/rcodonnell/code4hr-voting/issues)
-
-[![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat-square)](https://github.com/rcodonnell/code4hr-voting/pulls)
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+[![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/rcodonnell/code4hr-voting/issues) [![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat-square)](https://github.com/rcodonnell/code4hr-voting/pulls) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 [![Screenshot](https://fvcproductions.files.wordpress.com/2015/10/hackvote.png)]()
 
