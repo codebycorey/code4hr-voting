@@ -6,7 +6,7 @@
 
 ### "Change the world, know your candidate."
 
-> 🔨 with ❤️ at the <a href="http://hackathon.dominionenterprises.com/" title="Hack to Help Hampton Roads" target="_blank">Hack to Help Hampton Roads</a> hackathon
+> :hammer:ed with :heart: at the <a href="http://hackathon.dominionenterprises.com/" title="Hack to Help Hampton Roads" target="_blank">Hack to Help Hampton Roads</a> hackathon
 
 [![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/rcodonnell/code4hr-voting/issues)
 
