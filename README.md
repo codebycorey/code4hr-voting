@@ -2,11 +2,11 @@
 
 # Hack to Vote
 
-## Check out out app at <a href="http://rcodonnell.github.io/code4hr-voting/" target="_blank">`rcodonnell.github.io/code4hr-voting`</a>
+## Check out our app at <a href="http://rcodonnell.github.io/code4hr-voting/" target="_blank">`rcodonnell.github.io/code4hr-voting`</a>
 
 ### "Change the world, know your candidate."
 
-> Made with love at <a href="http://hackathon.dominionenterprises.com/" title="Hack to Help Hampton Roads" target="_blank">Hack to Help Hampton Roads</a>
+> 🔨 with ❤️ at the <a href="http://hackathon.dominionenterprises.com/" title="Hack to Help Hampton Roads" target="_blank">Hack to Help Hampton Roads</a> hackathon
 
 [![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/rcodonnell/code4hr-voting/issues)
 
