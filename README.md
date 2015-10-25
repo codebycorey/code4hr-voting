@@ -1,6 +1,6 @@
 <a href="http://rcodonnell.github.io/code4hr-voting/" title="Hack to Vote" target="_blank"><img src="http://rcodonnell.github.io/code4hr-voting/src/img/favicons/favicon-114.png"  alt="Hack to Vote"></a>
 
-# Hack to Vote
+# Hack the Vote
 
 ## Check out our app at <a href="http://rcodonnell.github.io/code4hr-voting/" target="_blank">`rcodonnell.github.io/code4hr-voting`</a>
 
